@@ -3,8 +3,8 @@
 <!--Source : Flavien21 (2016), https://forum.bepo.fr/viewtopic.php?id=442&#x0026;p=2&#x000A;Adaptation : aurelberra (2024), https://github.com/aurelberra/-->
 <!-- 2019-11-30 edited by Aurélien Berra: remove symbol for dead key (μ) -->
 <!-- <keyboard group="126" id="-6542" name="Grec polytonique Bépo AB" maxout="4"> -->
-<!--Last edited by Ukelele version 396 on 2024-07-14 at 19:26 (CEST)-->
-<keyboard group="126" id="-25954" name="Grec Ergol" maxout="4">
+<!--Last edited by Ukelele version 396 on 2025-01-28 at 18:55 (CET)-->
+<keyboard group="126" id="-29133" name="Grec Ergol" maxout="4">
     <layouts>
         <layout first="0" last="0" mapSet="ISO" modifiers="commonModifiers"/>
         <layout first="1" last="6" mapSet="ANSI" modifiers="commonModifiers"/>
@@ -60,70 +60,60 @@
     <keyMapSet id="ANSI">
         <keyMap index="0" baseMapSet="ISO" baseIndex="0">
             <!--Source : Flavien21 (2016), https://forum.bepo.fr/viewtopic.php?id=442&#x0026;p=2&#x000A;Adaptation : aurelberra (2024), https://github.com/aurelberra/-->
-            <key code="13" output="$"/>
             <key code="30" output="$"/>
             <key code="42" output="$"/>
             <key code="50" output="$"/>
         </keyMap>
         <keyMap index="1" baseMapSet="ISO" baseIndex="1">
             <!-- shift -->
-            <key code="13" output="#"/>
             <key code="30" output="#"/>
             <key code="42" output="#"/>
             <key code="50" output="#"/>
         </keyMap>
         <keyMap index="2" baseMapSet="ISO" baseIndex="2">
             <!---->
-            <key code="13" output="$"/>
             <key code="30" output="$"/>
             <key code="42" output="$"/>
             <key code="50" output="$"/>
         </keyMap>
         <keyMap index="3" baseMapSet="ISO" baseIndex="3">
             <!-- shift caps lock -->
-            <key code="13" output="#"/>
             <key code="30" output="#"/>
             <key code="42" output="#"/>
             <key code="50" output="#"/>
         </keyMap>
         <keyMap index="4" baseMapSet="ISO" baseIndex="4">
             <!-- option -->
-            <key code="13" output=""/>
             <key code="30" output=""/>
             <key code="42" output=""/>
             <key code="50" output=""/>
         </keyMap>
         <keyMap index="5" baseMapSet="ISO" baseIndex="5">
             <!-- shift option -->
-            <key code="13" output=""/>
             <key code="30" output=""/>
             <key code="42" output=""/>
             <key code="50" output=""/>
         </keyMap>
         <keyMap index="6" baseMapSet="ISO" baseIndex="6">
             <!-- shift option caps lock -->
-            <key code="13" output=""/>
             <key code="30" output=""/>
             <key code="42" output=""/>
             <key code="50" output=""/>
         </keyMap>
         <keyMap index="7" baseMapSet="ISO" baseIndex="7">
             <!-- option caps lock -->
-            <key code="13" output=""/>
             <key code="30" output=""/>
             <key code="42" output=""/>
             <key code="50" output=""/>
         </keyMap>
         <keyMap index="8" baseMapSet="ISO" baseIndex="8">
             <!-- option command -->
-            <key code="13" output=""/>
             <key code="30" output=""/>
             <key code="42" output=""/>
             <key code="50" output=""/>
         </keyMap>
         <keyMap index="9" baseMapSet="ISO" baseIndex="9">
             <!-- control -->
-            <key code="13" output="`"/>
             <key code="30" output="`"/>
             <key code="42" output="`"/>
             <key code="50" output="`"/>
@@ -145,7 +135,7 @@
             <key code="10" action="$"/>
             <key code="11" action="b"/>
             <key code="12" action="q"/>
-            <key code="13" action="ê"/>
+            <key code="13" action="circumflex"/>
             <key code="14" action="o"/>
             <key code="15" action="p"/>
             <key code="16" action="j"/>
@@ -323,7 +313,7 @@
             <key code="10" action="#"/>
             <key code="11" action="B"/>
             <key code="12" action="Q"/>
-            <key code="13" action="Ê 1"/>
+            <key code="13" action="!"/>
             <key code="14" action="O"/>
             <key code="15" action="P"/>
             <key code="16" action="J"/>
@@ -500,7 +490,7 @@
             <key code="10" action="$"/>
             <key code="11" action="B"/>
             <key code="12" action="Q"/>
-            <key code="13" action="Ê"/>
+            <key code="13" action="circumflex"/>
             <key code="14" action="O"/>
             <key code="15" action="P"/>
             <key code="16" action="J"/>
@@ -677,7 +667,7 @@
             <key code="10" action="#"/>
             <key code="11" action="b"/>
             <key code="12" action="q"/>
-            <key code="13" action="ê"/>
+            <key code="13" action="!"/>
             <key code="14" action="o"/>
             <key code="15" action="p"/>
             <key code="16" action="j"/>
@@ -854,7 +844,7 @@
             <key code="10" action="–"/>
             <key code="11" action="|"/>
             <key code="12" action="ringabove"/>
-            <key code="13" action="/"/>
+            <key code="13" action="¡"/>
             <key code="14" action="œ"/>
             <key code="15" action="&#x0026;"/>
             <key code="16" action="ĳ"/>
@@ -1031,7 +1021,7 @@
             <key code="10" action="¶"/>
             <key code="11" action="¦"/>
             <key code="12" action="belowdot"/>
-            <key code="13" action="altmajê"/>
+            <key code="13" action="altmajcirc"/>
             <key code="14" action="Œ"/>
             <key code="15" action="§"/>
             <key code="16" action="Ĳ"/>
@@ -1385,7 +1375,7 @@
             <key code="10" action="–"/>
             <key code="11" action="|"/>
             <key code="12" action="ringabove"/>
-            <key code="13" action="/"/>
+            <key code="13" action="¡"/>
             <key code="14" action="Œ"/>
             <key code="15" action="&#x0026;"/>
             <key code="16" action="Ĳ"/>
@@ -1562,7 +1552,7 @@
             <key code="10" action="–"/>
             <key code="11" action="|"/>
             <key code="12" action="°"/>
-            <key code="13" action="/"/>
+            <key code="13" action="¡"/>
             <key code="14" action="œ"/>
             <key code="15" action="&#x0026;"/>
             <key code="16" action="ĳ"/>
@@ -1739,7 +1729,7 @@
             <key code="10" action="0"/>
             <key code="11" output="&#x0002;"/>
             <key code="12" output="&#x0011;"/>
-            <key code="13" output="`"/>
+            <key code="13" output="&#x001C;"/>
             <key code="14" output="&#x000F;"/>
             <key code="15" output="&#x0010;"/>
             <key code="16" output="&#x0006;"/>
@@ -3058,6 +3048,9 @@
             <when state="hook" output="Ɠ"/>
             <when state="macron" output="Ḡ"/>
             <when state="stroke" output="Ǥ"/>
+        </action>
+        <action id="Grec circonflexe">
+            <when state="none" next="Grec circonflexe"/>
         </action>
         <action id="H">
             <when state="none" output="Η"/>
@@ -5981,7 +5974,7 @@
             <when state="acute" output="Ǻ"/>
         </action>
         <action id="Æ">
-            <when state="none" output=""/>
+            <when state="none" output="Ϲ"/>
             <when state="Multi_key_acute" output="Ǽ"/>
             <when state="Multi_key_apostrophe" output="Ǽ"/>
             <when state="Multi_key_macron" output="Ǣ"/>
@@ -6297,7 +6290,7 @@
             <when state="acute" output="ǻ"/>
         </action>
         <action id="æ">
-            <when state="none" output=""/>
+            <when state="none" output="ϲ"/>
             <when state="Maths" output="𝔄"/>
             <when state="Multi_key_acute" output="ǽ"/>
             <when state="Multi_key_apostrophe" output="ǽ"/>
